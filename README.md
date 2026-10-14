@@ -347,3 +347,7 @@ Five indexes added in `002_schema.sql`:
 - **`showtimes` naming** — The table stores the movie catalog, not showtimes. `showing` is the actual schedule. This naming inversion exists in the schema and is preserved for now.
 - **`PORT` fallback** — `app.js` falls back to `3000` if `PORT` is unset. Always set `PORT=5000` in `.env`.
 - **JWT_SECRET warning** — server logs a startup warning if `JWT_SECRET` is missing but still starts.
+
+## License
+
+Original code and documentation authored by Jakkarin Promsee are licensed under the [MIT License](LICENSE). Third-party code, assets, datasets, and other materials are not covered by this license; their original terms apply.
